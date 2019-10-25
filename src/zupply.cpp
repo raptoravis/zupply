@@ -6644,7 +6644,7 @@ namespace zz
 				// Portable Gray Map and Portable Pixel Map loader
 				// by Ken Miller
 				//
-				// PGM: http://netpbm.sourceforge.net/doc/pgm.html
+				// PGM: http://netpbm.sourceforge.net/doc/m.html
 				// PPM: http://netpbm.sourceforge.net/doc/ppm.html
 				//
 				// Known limitations:
@@ -6729,7 +6729,7 @@ namespace zz
 						return 0;
 					}
 
-					*comp = (t == '6') ? 3 : 1;  // '5' is 1-component .pgm; '6' is 3-component .ppm
+					*comp = (t == '6') ? 3 : 1;  // '5' is 1-component .m; '6' is 3-component .ppm
 
 					c = (char)stbi__get8(s);
 					stbi__pnm_skip_whitespace(s, &c);
